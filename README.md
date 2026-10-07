@@ -12,7 +12,7 @@
 |---|---|---|---|
 | ⚡ [**StreamIntel 360**](https://github.com/hamazmubashar/streamintel360) | 9 connected ML/DL/LLM modules for streaming analytics — churn, forecasting, hybrid recommendations, computer vision, NLP, RAG, and explainable AI behind a FastAPI backend | TensorFlow · scikit-learn · FastAPI · RAG · Streamlit | [Live](https://streamintel360-h5l8i2mdn5sfphbwsvcsyg.streamlit.app/) |
 | 🛒 [**RetailPulse 360**](https://github.com/hamazmubashar/RetailPulse360) | Retail decision-intelligence for footwear chains — demand forecasting, inventory redistribution between stores, pricing intelligence, business-impact KPIs | LightGBM · pandas · Streamlit | [Live](https://retailpulse360.streamlit.app) |
-| 🛡️ [**FraudDetection360**](https://github.com/hamazmubashar/FraudDetection360) | Fraud risk scoring on 590K real transactions with cost-optimized thresholds — ROC-AUC 0.90, ~91% reduction in modeled error cost vs. a naive cutoff | LightGBM · imbalanced-learn · MySQL · Streamlit | [Live](https://frauddetection360.streamlit.app) |
+| 🛡️ [**FraudDetection360**](https://github.com/hamazmubashar/FraudDetection360) | Fraud risk scoring on 590K real transactions with cost-optimized thresholds — ROC-AUC 0.90; cost-optimized threshold catches 71% of fraud with 32–72% lower modeled error cost than extreme cutoffs | LightGBM · imbalanced-learn · MySQL · Streamlit | [Live](https://frauddetection360.streamlit.app) |
 | 📊 [**Telco Churn Prediction**](https://github.com/hamazmubashar/telco-customer-churn-prediction) | Churn drivers and model comparison (LogReg, Random Forest, XGBoost, Keras) with retention recommendations | scikit-learn · XGBoost · Keras | — |
 
 🔨 **Currently building:** a computer-vision quality-inspection platform with an LLM copilot.
