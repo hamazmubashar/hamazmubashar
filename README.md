@@ -22,9 +22,10 @@
 | Project | What it does | Stack | Demo |
 |---|---|---|---|
 | 📚 [**Knowledge Assistant**](https://github.com/hamazmubashar/knowledge-assistant) | Internal Q&A over company PDFs — every answer sentence is checked against the cited page, role-based document access, retrieval & answer evaluation harness (100 tests) | FastAPI · PostgreSQL/pgvector · Hybrid search · Ollama · Docker | [Live](https://knowledge-assistant-demo.streamlit.app) |
+| ✈️ **FlowPilot AI** | AI-assisted lead-intake automation — n8n workflows, rules-based scoring, local-LLM drafts with injection screening and output guards, named human approval, simulated-only outbox; hardened public demo (TLS, rate limits, isolated API) | n8n · FastAPI · Ollama · Docker · nginx | [Live](https://flowpilot-hamaz.duckdns.org) · code on request |
 | 🎯 **LeadFlow AI** | Lead intake → scoring → AI-drafted outreach with mandatory human approval and a simulated-only outbox; role-based access, DB-enforced integrity, zero-cost production deploy | FastAPI · SQLite/Alembic · Ollama · Docker · Oracle Cloud | [Live](https://leadflow-hamaz.duckdns.org) · code on request |
 
-🔨 **Currently building:** FlowPilot AI (n8n-orchestrated lead-intake workflows with human approval) and VisionOps AI (computer-vision quality inspection).
+🔨 **Currently building:** VisionOps AI — computer-vision quality inspection for manufacturing.
 
 ---
 
