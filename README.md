@@ -1,49 +1,45 @@
-# Hi, I'm Hamaz Mubashar 👋
+# Hi, I'm Hamaz 👋
 
-**Data Scientist & AI Engineer** building end-to-end systems — from raw data to deployed, interactive apps — with a focus on decisions that carry real business cost.
+I'm a data scientist and AI engineer from Lahore. I build things end to end, from messy raw data to an app someone can actually click through, and I care most about the decision a model supports, not just its score.
 
-📍 Lahore, Pakistan · 🌍 Open to **remote Data Science, Data Analytics & AI/LLM Engineering roles** · 🔗 [LinkedIn](https://www.linkedin.com/in/hamazmubashar)
+Before data science I worked in healthcare revenue-cycle operations, handling claims, accounts receivable and weekly reporting. That's where I learned that data is only useful when it changes what someone does next.
+
+I'm open to **remote roles in data science, data analytics and AI/LLM engineering**. → [LinkedIn](https://www.linkedin.com/in/hamazmubashar)
 
 ---
 
-## 🚀 Featured Projects
+### Projects
 
-### Data Science & Machine Learning
+**AI engineering: LLMs, retrieval and automation**
 
-| Project | What it does | Stack | Demo |
+| Project | What it does | Built with | Try it |
 |---|---|---|---|
-| ⚡ [**StreamIntel 360**](https://github.com/hamazmubashar/streamintel360) | 9 connected ML/DL/LLM modules for streaming analytics — churn, forecasting, hybrid recommendations, computer vision, NLP, RAG, and explainable AI behind a FastAPI backend | TensorFlow · scikit-learn · FastAPI · RAG · Streamlit | [Live](https://streamintel360-h5l8i2mdn5sfphbwsvcsyg.streamlit.app/) |
-| 🛒 [**RetailPulse 360**](https://github.com/hamazmubashar/RetailPulse360) | Retail decision-intelligence for footwear chains — demand forecasting, inventory redistribution between stores, pricing intelligence, business-impact KPIs | LightGBM · pandas · Streamlit | [Live](https://retailpulse360.streamlit.app) |
-| 🛡️ [**FraudDetection360**](https://github.com/hamazmubashar/FraudDetection360) | Fraud risk scoring on 590K real transactions with cost-optimized thresholds — ROC-AUC 0.90; cost-optimized threshold catches 71% of fraud with 32–72% lower modeled error cost than extreme cutoffs | LightGBM · imbalanced-learn · MySQL · Power BI · Streamlit | [Live](https://frauddetection360.streamlit.app) |
-| 📊 [**Telco Churn Prediction**](https://github.com/hamazmubashar/telco-customer-churn-prediction) | Churn drivers and model comparison (LogReg, Random Forest, XGBoost, Keras) with retention recommendations | scikit-learn · XGBoost · Keras | — |
+| [**FlowPilot AI**](https://github.com/hamazmubashar/flowpilot-ai) | Lead-intake automation where n8n and a local LLM do the busywork (scoring, qualifying, drafting replies) and a named person approves every message. Nothing is ever sent automatically. | n8n · FastAPI · Ollama · Docker | [Live demo](https://flowpilot-hamaz.duckdns.org) |
+| [**Knowledge Assistant**](https://github.com/hamazmubashar/knowledge-assistant) | Q&A over company PDFs. Every answer sentence is checked against the page it cites, and people only see documents their role allows. Built for a client against agreed targets. | FastAPI · pgvector · Ollama · Docker | [Live demo](https://knowledge-assistant-demo.streamlit.app) |
+| **LeadFlow AI** | A lead-management system for small sales teams: import, score and track leads, with AI-drafted outreach that waits for human approval. | FastAPI · SQLite · Ollama · Docker | [Live demo](https://leadflow-hamaz.duckdns.org) · code on request |
 
-### LLM, RAG & AI Automation
+**Data science and machine learning**
 
-| Project | What it does | Stack | Demo |
+| Project | What it does | Built with | Try it |
 |---|---|---|---|
-| 📚 [**Knowledge Assistant**](https://github.com/hamazmubashar/knowledge-assistant) | Internal Q&A over company PDFs — every answer sentence is checked against the cited page, role-based document access, retrieval & answer evaluation harness (100 tests) | FastAPI · PostgreSQL/pgvector · Hybrid search · Ollama · Docker | [Live](https://knowledge-assistant-demo.streamlit.app) |
-| ✈️ **FlowPilot AI** | AI-assisted lead-intake automation — n8n workflows, rules-based scoring, local-LLM drafts with injection screening and output guards, named human approval, simulated-only outbox; hardened public demo (TLS, rate limits, isolated API) | n8n · FastAPI · Ollama · Docker · nginx | [Live](https://flowpilot-hamaz.duckdns.org) · code on request |
-| 🎯 **LeadFlow AI** | Lead intake → scoring → AI-drafted outreach with mandatory human approval and a simulated-only outbox; role-based access, DB-enforced integrity, zero-cost production deploy | FastAPI · SQLite/Alembic · Ollama · Docker · Oracle Cloud | [Live](https://leadflow-hamaz.duckdns.org) · code on request |
+| [**RetailPulse 360**](https://github.com/hamazmubashar/RetailPulse360) | Decision support for a 190-store shoe chain: demand forecasting, stock transfers between stores, discount strategy, and the rupee value of each decision. | LightGBM · pandas · Streamlit | [Live app](https://retailpulse360.streamlit.app) |
+| [**FraudDetection360**](https://github.com/hamazmubashar/FraudDetection360) | Fraud scoring on 590K real transactions, with the block/allow cutoff chosen by what each mistake costs. Catches 71% of fraud at the lowest total cost. | LightGBM · MySQL · Power BI · Streamlit | [Live app](https://frauddetection360.streamlit.app) |
+| [**StreamIntel 360**](https://github.com/hamazmubashar/streamintel360) | Eight models for a streaming platform (churn, forecasting, recommendations, poster genres, sentiment, LLM briefings, Q&A, explainability) behind one API. | TensorFlow · scikit-learn · FastAPI · Streamlit | [Live app](https://streamintel360-h5l8i2mdn5sfphbwsvcsyg.streamlit.app/) |
+| [**Telco Churn Prediction**](https://github.com/hamazmubashar/telco-customer-churn-prediction) | What drives telecom churn, seven models compared, and retention ideas to act on. The simplest model won. | scikit-learn · XGBoost · Keras | — |
 
-🔨 **Currently building:** VisionOps AI — computer-vision quality inspection for manufacturing.
-
----
-
-## 🧰 Toolkit
-
-**Languages & data:** Python · SQL (MySQL, PostgreSQL) · pandas · NumPy
-**Machine learning:** scikit-learn · LightGBM · XGBoost · imbalanced-learn
-**Deep learning & AI:** TensorFlow / Keras · NLP · Computer Vision · LLMs · RAG · pgvector · Ollama
-**Automation & engineering:** FastAPI · n8n · Docker · Alembic · pytest
-**Deployment & BI:** Streamlit · Plotly · Power BI · Oracle Cloud · Git / Git LFS
+Currently building **VisionOps AI**, visual quality inspection for a manufacturing line.
 
 ---
 
-## 💡 How I work
+### How I work
 
-- **Business cost first** — I optimize for the decision, not just the metric (e.g., thresholds set by the dollar cost of each error type).
-- **Honest limitations** — every project README states what the model *can't* do.
-- **Humans stay in control** — AI drafts, people approve; nothing irreversible happens automatically.
-- **Shipped, not just notebooks** — projects end in a working app you can try.
+- **Start from the business decision.** In fraud detection, I set the cutoff from the cost of each kind of mistake, not a default 0.5.
+- **Say what doesn't work.** Every README has a limitations section, and I report held-out results even when they're worse.
+- **Keep people in charge of AI.** In my automation projects the model drafts and a person decides.
+- **Ship it.** Almost every project ends in something you can open in a browser.
 
-Background in healthcare revenue-cycle operations (claims, AR, reporting) — real-world data handling before data science.
+### Tools I use
+
+**Data and ML:** Python, SQL (MySQL, PostgreSQL), pandas, NumPy, scikit-learn, LightGBM, XGBoost, TensorFlow / Keras
+**LLMs and automation:** RAG, pgvector, Ollama, Gemini, n8n, FastAPI
+**Shipping:** Docker, Streamlit, Plotly, Power BI, pytest, Git, Oracle Cloud
